@@ -1,63 +1,48 @@
-# Dontpad Clone
+online editor saver
 
-Este projeto é uma versão simplificada do Dontpad com suporte a edição apenas com senha, e em dark mode permanente, desenvolvido com React, TypeScript e Node.js/Express para o backend.
+This project is a simplified version of Dontpad with support for editing only with a password, and with permanent dark mode, developed with React, TypeScript, and Node.js/Express for the backend.
 
-## Funcionalidades
+Features
 
-- Autenticação por senha para edição de conteúdo.
-- Interface de usuário em dark mode.
-- Edição de texto simples com salvamento em arquivo no servidor.
+Password authentication for editing content.
 
-## Pré-requisitos
+User interface in dark mode.
 
-- Node.js instalado
-- NPM instalado
+Simple text editing with saving to a file on the server.
 
-## Como executar o projeto
+Prerequisites
 
-### Backend
+Node.js installed
 
-1. Navegue até o diretório do projeto.
+NPM installed
 
-    ```sh
-    cd dontpad_clone
-    ```
+How to run the project
+Backend
 
-2. Instale as dependências do backend.
+Navigate to the project directory.
 
-    ```sh
-    npm install
-    ```
+cd dontpad_clone
 
-3. Inicie o servidor backend.
+Install the backend dependencies.
 
-    ```sh
-    node server.js
-    ```
+npm install
 
-### Frontend
+Start the backend server.
 
-1. Navegue até o diretório `dontpad-clone`.
+node server.js
+Frontend
 
-    ```sh
-    cd dontpad-clone
-    ```
+Navigate to the dontpad-clone directory.
 
-2. Instale as dependências do frontend.
+cd dontpad-clone
 
-    ```sh
-    npm install
-    ```
+Install the frontend dependencies.
 
-3. Inicie a aplicação React.
+npm install
 
-    ```sh
-    npm start
-    ```
+Start the React application.
 
-4. Acesse a aplicação em [http://localhost:3000](http://localhost:3000).
+npm start
 
-## Como usar
-
-1. **Login**: Ao acessar o site, você verá uma tela de login. Insira a senha definida no código para autenticar.
-2. **Editor**: Após a autenticação, você poderá editar o texto e salvá-lo. O conteúdo será salvo no servidor.
+Access the application at http://localhost:3000
+.
